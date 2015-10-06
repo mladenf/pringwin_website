@@ -1,0 +1,100 @@
+@import "uikit.min.css";
+@import "components/slideshow.min.css";
+@import "components/slidenav.css";
+@import "components/slider.css";
+
+/* Fonts
+ ==========================================================================
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proximanova-light-webfont.woff') format('woff'),
+        url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+        url('../fonts/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-reg-webfont.eot');
+    src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+        url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+        url('../fonts/proximanova-reg-webfont.svg#ProximaNovaReg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+ ========================================================================== */
+
+html {
+	background-color: #000000;	
+	}
+.podloga01 {
+	background-image: url(../img/Pringwin_podloga01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	}
+img.podloga02 {
+	position: absolute;
+	top: 0px;
+	left: 0%;
+	right: 0%;
+	}
+	
+	.uk-margin-top {
+    margin-top: 0px!important;
+}
+img.tekst01 {
+	margin-top: 50%;
+	margin-bottom: 15%;
+}
+
+div.tekst02 {
+	width: 85%;
+	text-align: center;
+}
+.uk-slidenav-position .uk-slidenav-previous {
+  left: -20px;
+}
+.uk-slidenav-position .uk-slidenav-next {
+  right: -20px;
+}
+.uk-slidenav-contrast {
+  color: rgba(255, 255, 255, 0.9);
+}
+.uk-slidenav-contrast:hover,
+.uk-slidenav-contrast:focus {
+	color: rgba(250,211,48,1.00);
+}
+.linkovi {
+	
+	font-size: 35px;
+	color: #FFFFFF;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	line-height: 120%;
+	vertical-align: middle;
+}
+.linkovi p{
+	padding-top: 10%;	
+}
+.bold{
+	color: #EDB74D;
+	font-weight: 800;
+}
+ a.gumb {
+	font-size: 25px;
+	color: #EDB74D;
+}
+.linkovi a {
+	color: #EDB74D;
+}
+.linkovi a:hover {
+	text-decoration: none;
+	color: #F5F4F4;
+	}
